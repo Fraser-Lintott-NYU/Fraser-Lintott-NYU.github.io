@@ -1,9 +1,14 @@
-head{
+h1 {
     padding: 100px;
-    font-size: 200px;
+    font-size: 100px;
     color: red;
+    text-align: center;
+    background-color: black;
+    font-family: "Roboto Mono", monospace;
 }
 body {
     border-style: solid;
-    
+    border-color:red;
+    background-color: black;
+    text-align: center;
 }
