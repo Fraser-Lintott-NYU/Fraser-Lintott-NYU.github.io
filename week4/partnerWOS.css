@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    border: 2px solid pink;
+    width:300px;
+    height: 300px;
+    font-size: 40px;
+}
+
+
+
+
+
+#one{
+    position: fixed;
+    top: 200px;
+    left: 845px;
+    background: rgb(159, 159, 246);
+}
+
+#two{
+    position: absolute;
+    top: 10000px;
+    left: 240px;
+    background: rgb(179, 246, 159);
+}
+
+#three{
+    position: absolute;
+    top: 10000px;
+    left: 540px;
+    background: rgb(221, 234, 31);
+}
+
+#four{
+    position: absolute;
+    top: 10000px;
+    left: 1150px;
+    background: rgb(241, 157, 233);
+}
+#five{
+    position: absolute;
+    top: 10450px;
+    background-color: antiquewhite;
+    border: 0px;
+}
