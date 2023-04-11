@@ -1,0 +1,22 @@
+body {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: pink;
+    height:100px;
+    padding: 4vw;
+}
+
+button {
+    border-radius: 100%;
+    height: 50px;
+}
+
+button:hover {
+    background-color: lightcyan;
+}
+
+#sepBtn {
+    text-align: right;
+}
