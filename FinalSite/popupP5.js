@@ -124,7 +124,7 @@ function draw(){
     }
     else 
     {
-        if(random(1,100) >= 80)
+        if(random(1,100) >= 98)
         {
         storePopups.push(new Popup(random(100, 900),random(100, 400),storePopups.length));
         print("mouse moved true")
