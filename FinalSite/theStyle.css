@@ -1,0 +1,53 @@
+header {
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("/FinalSite/img/space.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+    color:white;
+}
+
+main {
+    background-color: rgb(202, 104, 209);
+    margin: 30px;
+    padding: 10px;
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-left:30px;
+    margin-right:30px;
+    margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.navBarLinks {
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    background-color: white;
+}
