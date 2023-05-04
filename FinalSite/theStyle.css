@@ -25,9 +25,10 @@ main {
     background-color: rgb(202, 104, 209);
     margin: 30px;
     padding: 10px;
+    font-size:50px;
 }
 
-ul {
+.bar {
     background-color: white;
     list-style-type: none;
     margin: 0px;
@@ -50,4 +51,115 @@ ul {
     display: block;
     padding: 10px;
     background-color: white;
+}
+
+#portrait {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+    height:600px;
+}
+
+.aboutMe{
+    background-color: rgb(202, 142, 206);
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 30px;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    color:white;
+}
+
+.aboutMeList{
+    margin-bottom: 8px;
+}
+
+#me1:after{
+    content:"John Doe";
+    color: black;
+}
+
+#me1:hover:after{
+    content: "Sam";
+    color: white;
+}
+#me2:after{
+    content:"18";
+    color: black;
+}
+
+#me2:hover:after{
+    content: "15";
+    color: white;
+}
+
+#me3:after{
+    content:"Purchasing, Wanting, Consuming, Scrolling";
+    color: black;
+}
+
+#me3:hover:after{
+    content: "sailing, skateboarding, videogames, and playing with my cat";
+    color: white;
+}
+
+#me4:after{
+    content:"Anti-Union Propaganda";
+    color: black;
+}
+
+#me4:hover:after{
+    content: "Star Wars (all of them)";
+    color: white;
+}
+
+#me5:after{
+    content:"Grey";
+    color: black;
+}
+
+#me5:hover:after{
+    content: "Blue :D";
+    color: white;
+}
+
+#me6:after{
+    content:"Media: Advertisements";
+    color: black;
+}
+
+#me6:hover:after{
+    content: "Cartoon: Batman";
+    color: white;
+}
+
+#me7:after{
+    content:"Office + Micro Celebrity";
+    color: black;
+}
+
+#me7:hover:after{
+    content: "Astronaut";
+    color: white;
+}
+
+#me8:after{
+    content:"Check my Insta";
+    color: black;
+}
+
+#me8:hover:after{
+    content: "Disney Land with my mom";
+    color: white;
+}
+
+#me9:after{
+    content:"Objects";
+    color: black;
+}
+
+#me8:hover:after{
+    content: "Go to the Moon!";
+    color: white;
 }
